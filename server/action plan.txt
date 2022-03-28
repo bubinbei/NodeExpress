@@ -1,4 +1,4 @@
-[] - Error handler (middleware)
+[x] - Error handler (middleware)
 [] - Generate JWT
 [] - Token (Auth) middleware
 [] - 
