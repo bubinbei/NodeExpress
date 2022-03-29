@@ -13,7 +13,7 @@ export const registerUser = asyncHandler(async(req, res) => {
 
   if (isHaveUser) {
     res.status(400)
-    throw new Error("Данный пользователь уже зарегестрирован.")
+    throw new Error("Данный пользователь уже зарегистрирован.")
   }
 
 
