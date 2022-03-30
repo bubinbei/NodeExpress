@@ -6,6 +6,7 @@ import colors from "colors";
 import {connectDB} from './config/db.js'
 /* Routes */
 import userRoutes from './routes/userRoutes.js'
+import exerciseRoutes from './routes/exerciseRoutes.js'
 /* Middleware */
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
 
@@ -21,6 +22,8 @@ if ( process.env.NODE_ENV === 'development' ) {
 
 app.use(express.json())
 app.use('/api/users', userRoutes)
+app.use('/api/exercises', exerciseRoutes)
+
 
 /* 404 */
 app.use(notFound)
