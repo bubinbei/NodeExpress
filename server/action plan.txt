@@ -1,7 +1,7 @@
 [x] - Error handler (middleware)
 [x] - Generate JWT
 [x] - Token (Auth) middleware
-[] - Authentication
+[x] - Authentication
 [] - 
 [] - 
 [] - 
